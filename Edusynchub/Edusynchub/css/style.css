@@ -1,0 +1,238 @@
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    
+     
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      background-color:whitesmoke;
+    }
+ 
+/* Updated CSS for header and container */
+
+header {
+    background-color: #f7f8f8; /* Match the background color of the homepage */
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.container img {
+    width: 150px;
+    /* Adjust width as needed */
+    margin-right: auto; /* Place logo photo on the left */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-grow: 1; /* Allow navigation to stretch */
+    justify-content: flex-end; /* Align navigation to the right */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    margin-right: 22px;
+}
+
+nav ul li a {
+    color: #090909; /* Match the text color of the homepage */
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1e1d1d80; /* 80% opacity white */
+}
+
+  /* Animation */
+  .animated-text {
+      display: inline-block;
+      animation: textAnimation 2s infinite alternate;
+  }
+  
+  @keyframes textAnimation {
+      0% { transform: scale(1); }
+      100% { transform: scale(1.1); }
+  }
+  .ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 60px;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  .highlight{
+    color: #FF0000; 
+  }
+  .ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 2.8em;
+    text-align: center; /* Center the text */
+    padding-bottom: 180px;
+}
+
+
+
+
+  .circle {
+    width: 150px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    background-color: #70bbb7; /* Adjust color as needed */
+    border-radius: 50%; /* Make it circular */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px; /* Adjust margin as needed */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.circle img {
+    width: 80px; /* Adjust image size as needed */
+    height: 80px; /* Adjust image size as needed */
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.square-bar {
+    width: 95%; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    background-color: #2c2e3c; /* Adjust color as needed */
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 100px; /* Make it rounded */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.small-box {
+    display: flex;
+    background-color:#2c2e3c;
+}
+/* Your existing CSS styles */
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+   
+   
+
+ 
+}
+
+.text-section,
+.hero-section {
+    flex: 1;
+}
+
+
+/* Additional styles to adjust the layout */
+.text-section {
+    padding: 0 20px;
+}
+
+.hero-section {
+    padding-right: 20px;
+}
+.learn{
+    font-size: 30px;
+}
+/* CSS for About Section */
+#about {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-us {
+    font-size: 2.1rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+   
+}
+
+.container p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+/* Footer */
+footer {
+    background-color: #1f2833; /* Dark navy blue */
+     color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.footer-content {
+    max-width: 400px;
+}
+
+.footer-content h2 {
+    margin-bottom: 20px;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin-bottom: 10px;
+}
+/* Add this CSS to your style.css file */
+
+.social-media a i {
+    font-size: 24px; /* Adjust the size as needed */
+    color: #0077b5; /* LinkedIn blue */
+}
+
+.social-media a:nth-child(2) i {
+    color: #d8dee4; /* GitHub black */
+}
+
+.social-media a:nth-child(3) i {
+    color: #d93025; /* Gmail red */
+}
+
+.social-media a:nth-child(4) i {
+    color: #0088cc; /* Telegram blue */
+}
